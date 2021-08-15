@@ -1,4 +1,59 @@
 .container{
     display:flex;
     flex-direction: column;
+    margin : 10% auto; 
+    width:fit-content;
+    width: 40vh;   
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--primary);
+    color: var(--secoundary);
+}
+:root{
+      /* --primary:#293241 ;   */
+      --primary:rgb(46, 39, 39) ; 
+    /* --secoundary:#68ceaf;  */
+    --secoundary:pink;
+
+    
+}
+
+button{
+    background-color: var(--secoundary);
+    padding: 8px;
+    margin: 5%;
+    border: 1px solid var(--secoundary);
+    border-radius: 6px;
+   font-size: 15px;
+}
+.bill-amount-label,.cash-given-label{
+    font-size:25px;
+
+}
+
+.bill-amount,.cash-given{
+    padding : 8px;
+    border-radius: 8px;
+    border : 1px solid  var(--primary);
+   
+} 
+.notes-table{
+    border : 3px solid black;
+    background-color: pink;
+    color: black;
+}
+td{
+    border : 2px solid black;
+    width : 3rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+th{
+    border : 2px solid black;
+    width : 5rem;
+    height: 2.5rem;
+    font-weight: bold;
 }

@@ -29,7 +29,6 @@ function compareValue(cash,bill)
     
     var change ="";
      var changeValue = cash-bill; 
-    console.log(typeof bill,typeof cash,typeof changeValue);
     if(bill>0&&cash>0)
     {
        if(cash>bill)
@@ -68,8 +67,9 @@ function resetValues(){
 
 function eventHandler()
 {
-   var bill=billAmount.value;
-   var cash=cashGiven.value;
+   var bill=Number(billAmount.value);
+   var cash=Number(cashGiven.value);
+   console.log(bill,cash);
    compareValue(cash,bill);
 }
 resetBtn.addEventListener('click',resetValues);
