@@ -12,10 +12,24 @@ body{
 }
 :root{
       /* --primary:#293241 ;   */
-      --primary:rgb(46, 39, 39) ; 
+      /* --primary:rgb(46, 39, 39) ;  */
+      --secoundary:rgb(27, 23, 23) ; 
     /* --secoundary:#68ceaf;  */
-    --secoundary:pink;
+    /* --secoundary:pink; */
+    --primary:rgb(217, 231, 10);
+    --tertiary:white;
+}
 
+.bold{
+    font-weight: bold;
+}
+
+.header{
+    font-size: 2.2rem;
+}
+
+.description{
+    font-size: 1.1rem;
     
 }
 
@@ -26,11 +40,13 @@ button{
     border: 1px solid var(--secoundary);
     border-radius: 6px;
    font-size: 15px;
+   color:var(--tertiary);
 }
 .bill-amount-label,.cash-given-label{
     font-size:25px;
 
 }
+
 
 .bill-amount,.cash-given{
     padding : 8px;
@@ -38,9 +54,15 @@ button{
     border : 1px solid  var(--primary);
    
 } 
+
+.return-change{
+    font-size: 1.2rem;
+    font-weight: 900;
+    
+}
 .notes-table{
-    border : 3px solid black;
-    background-color: pink;
+    border : 3px solid rgb(22, 68, 0);
+    background-color: rgb(205, 219, 5);
     color: black;
 }
 td{
