@@ -26,6 +26,7 @@ body{
 
 .header{
     font-size: 2.2rem;
+
 }
 
 .description{
@@ -79,3 +80,57 @@ th{
     height: 2.5rem;
     font-weight: bold;
 }
+.item-link{
+    list-style-type: none;
+    
+    }
+    .foot{
+        width: fit-content;
+        margin : 8% auto;
+        text-align: center;
+    }
+    .initem{
+    display: inline;
+    
+    font-size: 25px;
+    }
+    .item{
+        color: var(--secoundary);
+        padding:10px;
+    }
+    .made-stmt{
+        color:var(--secoundary);
+        padding:  0px 10px 10px 10px;
+        text-align: center;
+    }
+    .gmail-phone{
+        color:var(--primary);
+        font-size: 0px;
+      }
+    
+      
+    
+      @media screen and (max-width : 600px)
+      {
+        .gmail-laptop{
+            display: none;
+            padding: 0px;
+        }
+        
+        .gmail-phone{
+            font-size: 25px;
+            color:var(--secoundary);
+            padding: 2px;
+        }
+        .foot{
+        margin-top:35%;
+        }
+       .item-link{
+           margin-left: -20%;
+       }
+        .container{
+          margin-top: 20%;
+    
+        }
+    
+      }
